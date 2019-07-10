@@ -11,5 +11,3 @@ Redmine::Plugin.register :redmine_default_custom_query do
     permission :manage_default_query, { default_custom_query_setting: [ :update ] }, require: :member
   end
 end
-
-require_relative 'lib/default_custom_query'
